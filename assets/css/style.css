@@ -1,0 +1,359 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Raleway", sans-serif;
+}
+
+#top-nav a img {
+  max-height: 22px;
+  vertical-align: middle;
+  padding-right: 9px;
+}
+
+#top-nav {
+  padding: 50px 20px;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+}
+
+#top-nav a img {
+  max-height: 22px;
+  vertical-align: middle;
+  padding-right: 9px;
+}
+
+#top-nav a,
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a {
+  padding-right: 1px;
+  padding-left: 20px;
+}
+
+#top-nav a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.email {
+	font-weight: bold;
+	padding-right: 0;
+}
+
+#apresentacao {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-bottom: 32px;
+}
+
+#apresentacao h1 {
+  font-weight: 600;
+  font-size: 42px;
+}
+
+#apresentacao h1,
+#apresentacao p {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+#apresentacao p {
+  font-size: 20px;
+}
+
+.out-link {
+  height: 20px;
+  
+}
+
+#social span {
+  margin-right: 32px;
+}
+
+#social span a {
+  text-decoration: none;
+  color: black;
+}
+
+#social span a:hover {
+  color: blue;
+}
+
+#me {
+  border-radius: 50%;
+  height: 368px;
+  margin-left: 10%;
+  
+}
+
+#sobre-mim {
+  background-color: #D4E4FA;
+  padding: 64px 0;
+}
+
+#sobre-mim div {
+  width: 85%;
+  margin: auto;
+}
+
+#sobre-mim h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 50px;
+}
+#sobre-mim p {
+  line-height: 18.78px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 70%;
+}
+
+#sobre-mim img {
+	background-color: #D4E4FA;
+	margin-top: 16px;
+	width: 140px;
+}
+
+#hobbies,
+#skills {
+  padding: 40px 0;
+}
+
+#skills h1,
+#hobbies h1,
+#formacao h1 {
+  padding: 32px 0;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+}
+.skills-card-container,
+.hobbies-card-container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#formacao {
+  background-color: #D4E4FA;
+}
+
+#formacao {
+  padding-bottom: 82px;
+}
+
+#formacao div {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  height: 175px;
+  width: 175px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 10px;
+}
+
+.card img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-left: 20px;
+}
+
+.card span {
+  margin: 5px 0 20px 20px;
+}
+
+.card-formacao {
+  height: 286px;
+  width: 368px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-formacao img {
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.card-formacao img + span {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#projetos h1 {
+  padding: 32px 0;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  margin: auto;
+}
+
+.projeto-container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 53.5px;
+}
+
+.projeto-container .projeto-imagem {
+  width: 70%;
+}
+
+.projeto-container .projeto-info {
+  width: 30%;
+  margin-left: 26px;
+}
+
+.projeto-imagem img {
+  width: 100%;
+}
+
+.projeto-info h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.projeto-info p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.projeto-info a {
+  border: 1px solid #2a7ae4;
+  text-decoration: none;
+  display: inline-block;
+  color: #2a7ae4;
+  padding: 16px;
+}
+
+.projeto-info a:nth-child(2n) {
+  text-decoration: none;
+  background-color: #2a7ae4;
+  color: white;
+  padding: 16px;
+  display: inline-block;
+}
+
+/* estilizando formulario de contato*/
+
+.form-contato {
+  background-color: #D4E4FA 
+      
+}
+
+.form-contato h1 {
+  font-size: 32px;
+  font-weight: bold;    
+}
+
+.form-contato p {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.contato {   
+  display: flex;
+  justify-content: center;
+  padding-top: 128px; 
+  
+}
+
+.contato-imagem {
+  width: 464px;
+  height: 400px;
+  margin-right: 16px;
+  margin-top: -30px;
+  
+}
+
+.posicionamento-form {
+  display: flex;
+  width: 35vw;
+  flex-direction: column;  
+  margin-left: 16px;    
+  margin-bottom: 64px;
+    
+}
+
+.input-contato {
+  border-radius: 5px;
+  border: transparent;
+  height: 40px;
+  margin: 10px 0 10px 0;
+  width: 100%;
+}
+
+.input-mensagem{
+  border-radius: 5px;
+  border: transparent;
+  margin: 10px 0 10px 0;
+  height: 97px;
+  width: 100%;
+}
+
+.botao-envio {
+  background-color: #2A7AE4;
+  padding: 20px;
+  color: white;
+  margin-top: 32px;
+  border-radius: 9px;
+  transition: 1s all;
+	cursor: pointer;
+}
+
+.botao-envio:hover {
+  transform: scale(1.2);
+}
+
+.footer {
+  padding: 40px 0;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 0 0;  
+}
+
+.voltaTop {
+  width: 3vw;
+  position: fixed;
+  right: 3vw;
+  bottom: 5vh;
+}
+
+.voltaTop:hover {
+  transform: scale(1.2);
+  transition: 1s all;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
