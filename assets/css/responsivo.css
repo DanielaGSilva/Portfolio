@@ -1,0 +1,165 @@
+@media screen and (max-width: 850px) {
+    #top-nav,
+    #apresentacao,
+    #sobre-mim div,
+    .skills-card-container,
+    .hobbies-card-container,
+    #formacao div,
+    .projeto-container,
+    .formulario-contato {
+      width: auto;
+    }
+
+    #top-nav nav a {
+      display: none;
+    }
+
+    #top-nav nav a:last-child {
+      display: inline;
+    }
+
+    #apresentacao h1 {
+      font-size: 22px;
+    }
+
+    #me {
+      max-width: 146px;
+      max-height: 146px;
+    }
+
+    #sobre-mim p {
+      width: 100%;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  
+    .skills-card-container,
+    .hobbies-card-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: space-around;
+      justify-items: center;
+    }
+  
+    .projeto-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .projeto-container .projeto-imagem,
+    .projeto-container .projeto-info {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .projeto-container:nth-child(2) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .projeto-container:nth-child(2) .projeto-info {
+      margin: 0;
+    }
+
+    .projeto-info {
+      padding-top: 16px;
+    }
+
+    .projeto-info a + a {
+      margin-left: 16px;
+    }
+
+    .contato-imagem {
+      display: none;
+    }
+
+    .contato-container {
+      justify-content: center;
+      width: 100%;
+    }
+    
+    .contato-formulario {
+      align-items: stretch;
+    }
+
+    .posicionamento-form {
+      height: 637px;
+      width: 768px;
+      left: 0px;
+      top: 0px;
+      border-radius: 0px;
+      padding: 32px;
+    }
+
+    
+  
+    @media screen and (max-width: 400px) {
+      #top-nav a {
+        font-weight: 700;
+        font-size: 16px;
+      }
+
+      #top-nav nav a:last-child {
+        margin-left: 10px;
+        font-weight: 400;
+        font-size: 14px;
+      }
+
+      #apresentacao {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+      }
+
+      .apresentacao-imagem {
+        padding-bottom: 16px;
+      }
+
+
+      .card {
+        height: 118px;
+        width: 156px;
+      }
+
+      .skills-card-container,
+      .hobbies-card-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      #hobbies {
+        padding: 0 0 16px 0;
+      }
+
+      #formacao h1,
+      #projetos h1 {
+        font-size: 22px;
+        font-weight: 700;
+      }
+      
+      .card-formacao img + span {
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        
+      }
+
+      .card-formacao img {
+        width: 150px;
+        height: 200px;  
+      }
+
+      .card-formacao img:nth-child(2) {
+        width: 150px;
+        height: 200px;   
+      }
+
+      .posicionamento-form {
+        height: 675px;
+        width: 360px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        padding: 32px;
+      }
+    }
+  }
+
+  
